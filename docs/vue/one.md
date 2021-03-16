@@ -110,3 +110,74 @@ Object.defineProperty() 方法会直接在一个对象上定义一个新属性�
 - v-model 与 .value的区别
 
 - vue插件开发（主要考察vue.use以后发生了什么）
+
+
+
+1.线程与进程，空间分配、资源分配等等
+
+2.三次握手、四次挥手及标志位、time-wait等等
+
+3.H5的新特性，语义化
+
+4.BOM与DOM，及BOM相关的一些属性
+
+写代码：双向绑定、防抖和节流
+
+5.设计模式：发布订阅、观察者
+
+
+1.web worker，web storage，怎样验证本地数据的有效性
+
+2.性能优化相关
+
+3.缓存相关的http头部属性，强制缓存，协商缓存，优先级，以及meta标签
+
+4.怎样做的登录，接着就是session，cookie，token等等
+
+5.input属性相关，以及怎样做的文件上传
+
+6.微信小程序相关（项目中有涉及到）
+
+7.transform transition与animation
+
+8.setTimeout、setInterval与requestAnimationFrame
+
+9.页面加载问题，JS的异步加载
+
+10.给出代码，说出运算结果（this、event loop）
+
+写代码：回文数，数组去重，自定义log，判断数据类型
+
+11. React与Vue，各自做了些什么事情
+
+
+1.缓存命中率的问题，怎样确保缓存全部数据，缓存命中率不是100%应该怎么办
+
+2.说说性能优化的通用架构方案
+
+3.请求优化和渲染优化的方法
+
+4.数据类型转换的原理
+
+5.编程，5个feach请求，请求完成后要求立即执行，但最终的输出顺序要按照要求输出ABCDE（思路是：将每个feach的回调通过a/a的方式输出，但最后没有run出来）
+
+
+自我介绍 + 项目经历介绍
+项目中的难点以及如何解决的
+this指向
+始终指向调用它的直接对象，或new 的对象
+call() / apply() / bind()的区别
+BFC相关
+触发BFC的手段
+cookie / localStorage / sessionStorage的区别
+原型 / 原型链
+Object.create()
+使用new操作符时发生了什么
+介绍闭包
+闭包的定义 / 原理 / 创建闭包的手段 / 常见的应用场景 / 缺点
+数组遍历相关的方法
+includes() / filter() / every() / some()
+场景题
+上传图片时如何优化
+后端返回两万条数据，应该如何处理（只说了用setTimeout()分组处理，面试官让优化，但确实没思路）
+如果封装一个弹窗组件，应该如何着手做
